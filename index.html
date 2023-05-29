@@ -7,24 +7,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Latest compiled and minified JavaScript -->
+
     <link rel="stylesheet" href="styles/css/style.css" />
     <title>Enoca</title>
   </head>
   <body>
-    <nav class="nav_styles">
-      <div class="logo">
+    <nav class="navbar navbar-expand-xl nav top-0 w-100 ">
+      <div class="nav_layer"></div>
+      <div class="enoca_icon">
         <img src="./images/Group 3.png" alt="Logo" />
       </div>
-      <ul class="menu">
-        <li><a href="#">Çözümler</a></li>
-        <li><a href="#">Danışmanlık</a></li>
-        <li><a href="#">Projeler</a></li>
-        <li><a href="#">Teknoloji</a></li>
-        <li><a href="#">Haberler</a></li>
-        <li><a href="#">Kurumsal</a></li>
-        <li><a href="#">İletişim</a></li>
-      </ul>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="menu_icon">
+          <img src="./images/menu_icon.png" alt="" />
+        </span>
+      </button>
+      <div class="sideList" >
+        <div>
+          <img src="./images/Group 10.png" alt="">
+        </div>
+        <div>
+          <ul class="">
+            <li><span>Çözümler</span> <span>></span></li>
+            <li><span>Danışmanlık</span> <span>></span></li>
+            <li><span>Projeler</span> <span>></span></li>
+            <li><span>Teknoloji</span> <span>></span></li>
+            <li><span>Haberler</span> <span>></span></li>
+            <li><span>Kurumsal</span> <span>></span></li>
+            <li><span>İletişim</span> <span>></span></li>
+            <li><span>Türkçe</span> <span>></span></li>
+          </ul>
+        </div>
+        <ul>
+
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav menu">
+          <a href="#">Çözümler</a>
+          <a href="#">Danışmanlık</a>
+          <a href="#">Projeler</a>
+          <a href="#">Teknoloji</a>
+          <a href="#">Haberler</a>
+          <a href="#">Kurumsal</a>
+          <a href="#">İletişim</a>
+        </div>
+      </div>
     </nav>
+
     <section class="hero_section">
       <h1>We Do SAP Cx Hybris</h1>
       <ul>
@@ -61,7 +107,7 @@
       </div>
     </section>
     <section class="references">
-      <p class="caption_header">References</p>
+      <p class="caption_header">Referanslar</p>
       <div class="references_container">
         <span>
           <img src="./images/Frame (1).png" alt="" />
@@ -112,19 +158,72 @@
           <img src="./images/Frame 25.png" alt="" />
         </span>
       </div>
+      <div class="references_container_mobile d-xl-none">
+        <span>
+          <img src="./images/r1.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r2.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r3.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r4.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r5.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r6.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r7.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r8.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r9.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r10.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r11.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r12.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r13.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r14.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r15.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r16.png" alt="" />
+        </span>
+        <span>
+          <img src="./images/r17.png" alt="" />
+        </span>
+      </div>
       <div class="new_section2"></div>
     </section>
-    <section class="contact_section">
+      <section class="contact_section">
         <p class="caption_header">İletişim</p>
         <form class="contact_form" action="">
         <input class="name_input" type="text" placeholder="Name Surname" />
         <input class="email_input" type="email" placeholder="Email" />
-        <textarea class="msg_input" name="" id="" cols="30" rows="20"></textarea>
+        <textarea class="msg_input" name="" id="" cols="30" rows="20" placeholder="Comment or Message"></textarea>
           <button class="submit_btn">submit</button>
       </form>
         </div>
       </section>
-      <footer>
+       <footer>
         <div class="footer_section_one">
           <div>
             <div class="sub_section">
@@ -181,10 +280,10 @@
                 <li>Tasarım Tabanlı</li>
               </ul>
             </div>
-            <div class="sub_section">
+            <div class=" ">
               <div class="sub_sectoin_header highlighted">İnovasyon</div>
             </div>
-            <div class="sub_section">
+            <div class="">
               <div class="sub_sectoin_header">Araştırma - Geliştirme</div>
               <ul><li>Modelleme ve Simülasyon</li></ul>
             </div>
@@ -218,6 +317,12 @@
           </div>
         </div>
 
-      </footer>
-    </body>
+      </footer><!-- -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="./index.js"></script>
 </html>
